@@ -1,0 +1,27 @@
+{
+  "name": "freecodecamp",
+  "version": "1.0.0",
+  "description": "nodeJS api backend rest",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antikytheraton/node-freecodecamp.git"
+  },
+  "author": "antikytheraton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antikytheraton/node-freecodecamp/issues"
+  },
+  "homepage": "https://github.com/antikytheraton/node-freecodecamp#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongodb": "^2.2.33"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
